@@ -24,6 +24,7 @@
 		<spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
 		<cloud-admin.version>2.0.1</cloud-admin.version>
 		<member.version>0.0.1-SNAPSHOT</member.version>
+		<account.version>0.0.1-SNAPSHOT</account.version>
 		<lombok.version>1.16.22</lombok.version>
 		<common-base.version>0.0.1-SNAPSHOT</common-base.version>
 		<fastjson.version>1.2.15</fastjson.version>
@@ -99,6 +100,12 @@
 			    <groupId>mysql</groupId>
 			    <artifactId>mysql-connector-java</artifactId>
 			    <version>${version.mysql}</version>
+			</dependency>
+			
+			<dependency>
+		   		<groupId>cn.freeexchange</groupId>
+				<artifactId>account-api</artifactId>
+				<version>${account.version}</version>
 			</dependency>
 		
 		</dependencies>

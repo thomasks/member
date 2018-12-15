@@ -23,6 +23,11 @@
 		<groupId>cn.freeexchange</groupId>
 		<artifactId>member-api</artifactId>
 	</dependency>
+	
+	<dependency>
+		<groupId>cn.freeexchange</groupId>
+		<artifactId>account-api</artifactId>
+	</dependency>
   	
   	
   	<dependency>
